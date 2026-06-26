@@ -1,0 +1,23 @@
+{
+	"name": "esp32_github_ota_server",
+	"version": "1.0.0",
+	"description": "esp32-github OTA updates server",
+	"license": "ISC",
+	"author": "PaulCampbell",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"format": "biome format . --write",
+		"start": "node index.js"
+	},
+	"dependencies": {
+		"@hono/node-server": "^2.0.6",
+		"debug": "^4.4.3",
+		"hono": "^4.12.27",
+		"octokit": "^5.0.5"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.5.1"
+	}
+}
